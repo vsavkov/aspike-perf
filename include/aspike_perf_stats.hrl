@@ -1,0 +1,10 @@
+-record(aspike_perf_stats,{
+  total_steps,
+  n_ok,
+  n_errors,
+  total_sleep,
+  total_ops_timing,
+  ok_ops_timing,
+  error_ops_timing,
+  errors
+}).
