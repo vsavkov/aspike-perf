@@ -1,0 +1,15 @@
+{application, aspike_perf,
+ [{description, "Driver to measure Erlang Aerospike node client - Aerospike cluster performance"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {aspike_perf_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.
